@@ -6,4 +6,12 @@
         <item name="android:clipToPadding">false</item>
         <item name="android:transitionGroup">true</item>
     </style>
+
+    <style name="Widget.Apps.CompoundButton.MaterialSwitch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbIcon">@drawable/switch_thumb_icon</item>
+    </style>
+
+    <style name="Preference.SwitchPreferenceCompat.Apps" parent="Preference.SwitchPreferenceCompat.Material">
+        <item name="android:widgetLayout">@layout/preference_widget_material_switch</item>
+    </style>
 </resources>
